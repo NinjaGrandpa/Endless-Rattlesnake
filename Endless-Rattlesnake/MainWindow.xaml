@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:Endless_Rattlesnake"
         mc:Ignorable="d"
         Title="Endless Rattlesnake" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
+
+        <Rectangle Name="background" Height="400" Width="1262" Fill="Orange" Canvas.Left="0"/>
+        <Rectangle Name="background2" Height="400" Width="1262" Fill="LightGreen" Canvas.Left="1262"/>
+
+        <Rectangle Name="ground" Height="32" Width="792" Fill="Black" Canvas.Top="387" Canvas.Left="0"/>
+
+        <Rectangle Name="player" Height="99" Width="67" Fill="Brown" Canvas.Top="151" Canvas.Left="110"/>
+
+        <Rectangle Name="obstacle" Height="178" Width="50" Fill="Red" Canvas.Top="320" Canvas.Left="721"/>
+
+        <Label Name="scoreText" FontSize="32" FontWeight="Bold" Content="Score: 0"/>
+
+
+
+
+
+    </Canvas>
 </Window>

@@ -94,5 +94,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images2\background.gif" />
+    <Resource Include="Images2\newRunner_01.gif" />
+    <Resource Include="Images2\newRunner_02.gif" />
+    <Resource Include="Images2\newRunner_03.gif" />
+    <Resource Include="Images2\newRunner_04.gif" />
+    <Resource Include="Images2\newRunner_05.gif" />
+    <Resource Include="Images2\newRunner_06.gif" />
+    <Resource Include="Images2\newRunner_07.gif" />
+    <Resource Include="Images2\newRunner_08.gif" />
+    <Resource Include="Images2\obstacle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
